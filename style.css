@@ -1,0 +1,107 @@
+body {
+    font-family: sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+    margin: 0;
+    padding: 0;
+}
+.mydivs {
+    
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+nav {
+    background-color: black;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+#logo {
+    color: red;
+    font-size: 2em;
+    font-weight: 700;
+}
+.myspan {
+    color: white;
+}
+.topdiv1 {
+    
+    height: 500px;
+    margin: 2px;
+    padding-left: 50%;
+    padding-top: 50%;
+}
+.topdiv2 {
+    background-color: rgba(211, 206, 206, 0.89);
+    height: 500px;
+    margin: 2px;
+}
+input {
+    width: 80px;
+}
+button {
+    font-size: 15px;
+    font-weight: bold;
+    background: #1E90FF;
+    width: 90px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
+/*Shopping Cart styling*/
+input:focus, button:focus, .form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: #fff;
+}
+.table tr,
+.table tr td {
+    vertical-align: middle;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+}
+.button-container .form-control{
+    max-width: 80px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 5px;
+}
+#myTable .form-control{
+    width: auto;
+    display: inline-block;
+}
+.cart-qty-plus, .cart-qty-minus{
+    width: 38px;
+    height: 38px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.cart-qty-plus:hover, .cart-qty-minus:hover{
+    background-color: #5161ce;
+    color: #fff;
+}
+.img-prdct {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+}
+.img-prdct img{
+    width: 100%;
+}
